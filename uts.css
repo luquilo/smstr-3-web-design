@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* menyembunyikan scroll */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: rgb(215, 215, 215);
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav {
+  background-color: transparent;
+}
+
+nav a {
+  float: right;
+}
+
+ul {
+  justify-content: center;
+  padding: 21px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding: 20px;
+  /* margin: 20px;  */
+  text-align: center;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+li:hover, a:hover {
+    color: #fff;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  scroll-snap-align: center;
+}
+
+.one {
+  /* background: #ffb7ac */
+  background: #83d764;
+}
+.two {
+    /* background: #fb8886 */
+    background: #f8be36;
+}
+
+.three {
+  /* background: #e3d863 */
+  background: #797ef6;
+}
+
+.four {
+  /* background: #f1b43b */
+  background: #f17a7e;
+}
+
+.kanan {
+  width: 73%;
+  display: block;
+}
+
+.kiri {
+  width: 25%;
+}
+
+aside {
+  display: block;
+}
