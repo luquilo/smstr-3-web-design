@@ -66,6 +66,7 @@ li:hover, a:hover {
 section {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #fff;
@@ -91,15 +92,33 @@ section {
   background: #f17a7e;
 }
 
-.kanan {
-  width: 73%;
-  display: block;
+.kiri1 {
+    width: 50%;
 }
 
-.kiri {
-  width: 25%;
+.kanan1 {
+    width: 50%;
 }
 
-aside {
-  display: block;
+.kanan2 {
+  width: 50%;
+
+}
+
+.kiri2 {
+  width: 50%;
+}
+
+.three-header {
+    border: 1px solid black;
+}
+
+.kiri3 {
+    float: left;
+    width: 50%;
+}
+
+.kanan3 {
+    float: right;
+    width: 50%;
 }
