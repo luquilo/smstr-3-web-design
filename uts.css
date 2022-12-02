@@ -45,8 +45,9 @@ a {
   font-weight: 700;
 }
 
-li:hover, a:hover {
-    color: #fff;
+li:hover,
+a:hover {
+  color: #fff;
 }
 
 .container {
@@ -76,25 +77,82 @@ section {
   /* background: #ffb7ac */
   background: #83d764;
 }
+
+.one-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.one h2 {
+  margin-top: 50px;
+}
+
+.one h3 {
+  margin-bottom: 20px;
+}
+
+.kiri1 {
+  float: left;
+}
+
+.kanan1 {
+  float: right;
+  width: 40%;
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.two-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .two {
-    /* background: #fb8886 */
-    background: #f8be36;
+  display: flex;
+  /* background: #fb8886 */
+  background: #f8be36;
+}
+
+.two-direction {
+  display: flex;
+  flex-direction: row;
+}
+
+.two h1 {
+  text-align: center;
+}
+
+.kiri2,
+.kanan2 {
+  margin: 0 50px;
+  flex-direction: column;
+}
+
+.three-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .three {
+  display: flex;
   /* background: #e3d863 */
   background: #797ef6;
 }
 
+.three-direction {
+  display: flex;
+  flex-direction: row;
+}
+
+.kiri3, .kanan3 {
+
+  flex-direction: column;
+}
+
+
 .four {
   /* background: #f1b43b */
   background: #f17a7e;
-}
-
-.kiri1, .kanan1, .kiri2, .kanan2, .kiri3, .kanan3 {
-    width: 50%;
-}
-
-.three-header {
-    border: 1px solid black;
 }
